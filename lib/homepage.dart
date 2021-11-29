@@ -30,12 +30,11 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        actions: const [
-          Text(
-            "Books App Internship Assignment",
-            textAlign: TextAlign.center,
-          )
-        ],
+        title: const Text(
+          "Books App Internship Assignment",
+          textAlign: TextAlign.center,
+          style: TextStyle(fontSize: 15),
+        ),
       ),
       body: BlocBuilder<HomePageBloc, HomePageState>(
         builder: (context, state) {

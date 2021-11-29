@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
       ),
       home: BlocProvider<HomePageBloc>(
         create: (context) => HomePageBloc(apiClient),
-        child: HomePage(),
+        child: const HomePage(),
       ),
     );
   }

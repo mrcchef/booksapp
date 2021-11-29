@@ -1,4 +1,4 @@
-import 'package:book_app/user_model.dart';
+import 'package:book_app/data/user_model.dart';
 
 class UserModelList {
   late List<UserModel> userModelList;

@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:book_app/data/api_client.dart';
 import 'package:book_app/data/user_model_list.dart';
-import 'package:book_app/user_model.dart';
+import 'package:book_app/data/user_model.dart';
 import 'package:equatable/equatable.dart';
 
 part 'home_page_event.dart';
